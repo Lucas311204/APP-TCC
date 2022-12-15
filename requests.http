@@ -1,0 +1,50 @@
+POST https://peat-api.onrender.com/usuario
+Content-Type: application/json
+Authorization: KFHUh5OVK8QdpGIkoitnTVTj0Ys2
+
+{
+  "nome_completo": "Fulano Ciclano Beltrano",
+  "cpf": "500.000.000-00",
+  "estado": "SP",
+  "cidade": "São Paulo",
+  "bairro": "Vila Maria",
+  "logradouro": "Rua Estrela",
+  "complemento": "AP 12 BL 3",
+  "numero": 99
+}
+
+###
+
+GET https://peat-api.onrender.com/estabelecimento
+Content-Type: application/json
+
+###
+
+GET https://peat-api.onrender.com/estabelecimento/rRIA3rShSt93LMEVW1Ad
+Content-Type: application/json
+
+###
+
+POST https://peat-api.onrender.com/estabelecimento
+Content-Type: application/json
+
+{
+  "data": {
+    "nome": "Miau Petinho",
+    "descricao": "Um petshop preocupado com o bem-estar do seu pet",
+    "coordenadas": {
+      "lat": 32,
+      "long": 32
+    },
+    "estado": "SP",
+    "cidade": "São Paulo",
+    "bairro": "Vila Maria",
+    "logradouro": "Rua Estrela",
+    "complemento": "AP 12 BL 3",
+    "numero": 99
+  }
+}
+
+###
+
+DELETE https://peat-api.onrender.com/estabelecimento/rRIA3rShSt93LMEVW1Ad
